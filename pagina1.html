@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividades</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="content">
+        <h1>Actividades por Unidad</h1>
+        <div class="buttons-container">
+            <button onclick="showFiles('unidad1')">Unidad 1</button>
+            <button onclick="showFiles('unidad2')">Unidad 2</button>
+            <button onclick="showFiles('unidad3')">Unidad 3</button>
+            <button onclick="showFiles('unidad4')">Unidad 4</button>
+        </div>
+
+        <div id="unidad1" class="files-section" style="display: none;">
+            <h2>Unidad 1</h2>
+            <ul>
+                <li><a href="documentos/unidad1/AI.docx" target="_blank">ACTIVIDAD INTEGRADORA</a></li>
+                <li><a href="documentos/unidad1/BACKLOG.docx" target="_blank">EL PRODUCT BACKLOG</a></li>
+            </ul>
+        </div>
+
+        <div id="unidad2" class="files-section" style="display: none;">
+            <h2>Unidad 2</h2>
+            <ul>
+                <li><a href="documentos/unidad2/A1_BACKLOG.docx" target="_blank">ACT. #1. APLICACION DE SCRUM BACKLOG</a></li>
+                <li><a href="documentos/unidad2/A1_SPRING.docx" target="_blank">ACT. #1. APLICACION DE SCRUM SPRINT</a></li>
+                <li><a href="documentos/unidad2/A2_BACKLOG.docx" target="_blank">ACT. #2. EL SPRINT SHEDULE (BACKLOG)</a></li>
+                <li><a href="documentos/unidad2/A2_SPRINT.docx" target="_blank">ACT. #2. EL SPRINT SHEDULE (SPRINT)</a></li>
+                <li><a href="documentos/unidad2/AI_BACKLOG.docx" target="_blank">ACT. INTEGRADORA #2. EL BACKLOG Y EL SPRING SCHEDULE DEL PROYECTO (BACKLOG)</a></li>
+                <li><a href="documentos/unidad2/AI_SPRINT.xlsx" target="_blank">ACT. INTEGRADORA #2. EL BACKLOG Y EL SPRING SCHEDULE DEL PROYECTO (SPRINT)</a></li>
+            
+            </ul>
+        </div>
+
+        <div id="unidad3" class="files-section" style="display: none;">
+            <h2>Unidad 3</h2>
+            <ul>
+                <li><a href="documentos/unidad3/A1_BACKLOG.docx" target="_blank">ACT. #1. PRIMERA FASE DE DESARROLLO, REVISION Y AJUSTE DE LOS SPRINTS</a></li>
+                <li><a href="documentos/unidad3/A2_BACKLOG.docx" target="_blank">ACT. #2. SEGUNDA FASE DE DESARROLLO, REVISION Y AJUSTE DE LOS SPRINTS Y EL BACKLOG</a></li>
+                <li><a href="documentos/unidad3/A3_BACLOG.docx" target="_blank">ACT. #3. TERCERA FASE DE DESARROLLO, REVISION Y AJUSTE DE LOS SPRINTS Y EL BACLOG</a></li>
+                <li><a href="documentos/unidad3/AI_BACKLOG.docx" target="_blank">ACT. INTEGRADORA #3. PRODUCTO FINAL (BACKLOG)</a></li>
+                <li><a href="documentos/unidad3/AI_GRAFICA_SPRINT.xlsx" target="_blank">ACT. INTEGRADORA #3. PRODUCTO FINAL (GRAFICA SPRINTS)</a></li>
+                <li><a href="documentos/unidad3/AI_GRAFICA_BURN.xlsx" target="_blank">ACT. INTEGRADORA #3. PRODUCTO FINAL (GRAFICA BURN DOWN CHART)</a></li>
+            </ul>
+        </div>
+
+        <div id="unidad4" class="files-section" style="display: none;">
+            <h2>Unidad 4</h2>
+            <ul>
+                <li><a href="documentos/unidad4/A1_REUNION_INICIAL.docx" target="_blank">ACT. #1 REUNION DE REVISION INICIAL</a></li>
+                <li><a href="documentos/unidad4/A2_REVISION_PROYECTO.docx" target="_blank">ACT. #2 REUNION PARA REVISION DE MODIFICACIONES</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        function showFiles(unidad) {
+            // Oculta todas las secciones
+            document.querySelectorAll('.files-section').forEach(section => {
+                section.style.display = 'none';
+            });
+
+            // Muestra la sección seleccionada
+            document.getElementById(unidad).style.display = 'block';
+        }
+    </script>
+    <a href="index.html" class="inicio-button">Inicio</a>
+</body>
+</html>

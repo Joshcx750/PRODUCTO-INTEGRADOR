@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.content {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.buttons-container {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.files-section {
+    margin-top: 20px;
+}
+
+.files-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.files-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.files-section li {
+    margin: 5px 0;
+}
+
+.files-section a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.files-section a:hover {
+    text-decoration: underline;
+}
+
+.inicio-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.inicio-button:hover {
+    background-color: #555;
+    cursor: pointer;
+}
+.external-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 25px;
+    background-color: #444;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.external-button:hover {
+    background-color: #666;
+    cursor: pointer;
+}

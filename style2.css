@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.buttons-container {
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+.project-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.project-image {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border: 2px solid #555;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 1.2em;
+    color: #444;
+}
+
+.inicio-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.inicio-button:hover {
+    background-color: #555;
+    cursor: pointer;
+}
+.external-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 25px;
+    background-color: #444;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.external-button:hover {
+    background-color: #666;
+    cursor: pointer;
+}
